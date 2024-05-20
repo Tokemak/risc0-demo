@@ -10,7 +10,7 @@ alloy-primitives = { version = "0.6" }
 alloy-sol-types = { version = "0.6" }
 risc0-steel = { git = "https://github.com/risc0/risc0-ethereum.git", rev = "6c8c27002a619accee93b8d7c4c1842516fb12db" }
 risc0-zkvm = { version = "0.21.0", default-features = false, features = ["std"] }
-core = { path = "../../core" }
+tokemak = { path = "../../tokemak" }
 
 # Force the `compile-time-rng` feature, to prevent `getrandom` from being used.
 ahash = { version = "0.8", default-features = false, features = ["compile-time-rng"] }
